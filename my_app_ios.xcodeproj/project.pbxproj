@@ -10,7 +10,6 @@
 		F3118F172AA933D30068794A /* my_app_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3118F162AA933D30068794A /* my_app_iosApp.swift */; };
 		F3118F192AA933D30068794A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3118F182AA933D30068794A /* ContentView.swift */; };
 		F3118F1B2AA933D40068794A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3118F1A2AA933D40068794A /* Assets.xcassets */; };
-		F3118F1E2AA933D40068794A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3118F1D2AA933D40068794A /* Preview Assets.xcassets */; };
 		F3118F282AA933D40068794A /* my_app_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3118F272AA933D40068794A /* my_app_iosTests.swift */; };
 		F3118F322AA933D40068794A /* my_app_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3118F312AA933D40068794A /* my_app_iosUITests.swift */; };
 		F3118F342AA933D40068794A /* my_app_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3118F332AA933D40068794A /* my_app_iosUITestsLaunchTests.swift */; };
@@ -38,7 +37,6 @@
 		F3118F162AA933D30068794A /* my_app_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = my_app_iosApp.swift; sourceTree = "<group>"; };
 		F3118F182AA933D30068794A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F3118F1A2AA933D40068794A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F3118F1D2AA933D40068794A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F3118F232AA933D40068794A /* my_app_iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = my_app_iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3118F272AA933D40068794A /* my_app_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = my_app_iosTests.swift; sourceTree = "<group>"; };
 		F3118F2D2AA933D40068794A /* my_app_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = my_app_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,17 +95,8 @@
 				F3118F162AA933D30068794A /* my_app_iosApp.swift */,
 				F3118F182AA933D30068794A /* ContentView.swift */,
 				F3118F1A2AA933D40068794A /* Assets.xcassets */,
-				F3118F1C2AA933D40068794A /* Preview Content */,
 			);
 			path = my_app_ios;
-			sourceTree = "<group>";
-		};
-		F3118F1C2AA933D40068794A /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				F3118F1D2AA933D40068794A /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		F3118F262AA933D40068794A /* my_app_iosTests */ = {
@@ -231,7 +220,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3118F1E2AA933D40068794A /* Preview Assets.xcassets in Resources */,
 				F3118F1B2AA933D40068794A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,7 +404,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"my_app_ios/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -444,7 +432,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"my_app_ios/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
